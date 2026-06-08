@@ -2,9 +2,9 @@
 
 ## Context
 
-Repo (`ruornil/Yazgi`, şu an `C:\Users\mct\Yazgi` altında klonlu) tamamen boş — sadece README, LICENSE ve .gitignore var. Hedef: klasik Zork tarzı metin maceralarını, statik senaryolar yerine AI ajanlarıyla dinamik olarak üreten, farklı tarz/hikayelerin "world definition" olarak eklenebildiği açık kaynak bir oyun motorunun temel iskeletini kurmak. Harita v1 kapsamında değil; ileride eklenebilecek şekilde mimari buna açık bırakılacak.
+**Hedef**: Klasik Zork tarzı metin maceralarını, statik senaryolar yerine AI ajanlarıyla dinamik olarak üreten, farklı tarz/hikayelerin "world definition" olarak eklenebildiği açık kaynak bir oyun motorunun temel iskeletini kurmak. Harita v1 kapsamında değil; ileride eklenebilecek şekilde mimari buna açık bırakılacak.
 
-Kullanıcı tercihleri: Node.js/TypeScript + Express backend, Claude API (Anthropic SDK), PostgreSQL + pgvector, ve **çift istemci modu** (basit terminal arayüzü + React/Vite SPA) — hangi istemcinin kullanılacağı oyuna/dünyaya göre seçilebilir.
+Karar verilmesi gereken tercihler: Node.js/TypeScript + Express backend, Claude API (Anthropic SDK), PostgreSQL + pgvector, ve **çift istemci modu** (basit terminal arayüzü + React/Vite SPA) — hangi istemcinin kullanılacağı oyuna/dünyaya göre seçilebilir.
 
 ## Mimari Genel Bakış
 
